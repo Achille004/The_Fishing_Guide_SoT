@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: purple;
+}
+
+body {
+    font-family: Baskerville-Old;
+    font-size: 1em;
+    background-image: url("pics/background_image_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 30em;
+    background-color: #1d1f21;
+    color: white;
+    margin: 0px 7%;
+}
+
+dt {
+    margin-bottom: 0.4em;
+}
+
+h1 {
+    font-family: serif;
+    color: red;
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+.difficolta {
+    border: 2px solid white;
+    float: right;
+    width: 100px;
+    height: 30px;
+}
+
+.fish {
+    font-size: 1.5em;
+    margin-bottom: 3.6em;
+}
+
+.icona {
+    float: left;
+}
+
+.indice {
+    font-family: sans-serif;
+}
+
+.legenda {
+    border: 3px solid white;
+    float: right;
+    width: 200px;
+}
+
+.linea {
+    background: white;
+    position: relative;
+    margin-top: -17px;
+    margin-bottom: 1em;
+    height: 5px;
+    z-index: -1;
+}
+
+.maintitle {
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #1d1f21;
+    width: 25em;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.map {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0px 10%;
+}
+
+.picture {
+    border: 2px solid black;
+    float: left;
+    background-color: white;
+    width: 667px;
+    height: 371px;
+}
+
+.sidetext {
+    margin-left: 700px;
+    line-height: 4.5em;
+}
+
+.textline {
+    background: #1d1f21;
+    font-size: 2em;
+    display: inline;
+    padding-right: 20px;
+}
+
+.tip {
+    border: 5px solid #FFA500;
+}
+
+.title {
+    color: red;
+}
+
+.warning {
+    border: 5px solid #ff0000;
+}
+
+#ez:before {
+    content: '- Green:';
+    color: #6B8E23;
+}
+
+#hd:before {
+    content: '- Red:';
+    color: #FF0000;
+}
+
+#index {
+    font-family: sans-serif;
+}
+
+#in:before {
+    content: '- Purple:';
+    color: #9400D3;
+}
+
+#md:before {
+    content: '- Yellow:';
+    color: #FFA500;
+}
