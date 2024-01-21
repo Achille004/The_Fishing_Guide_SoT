@@ -1,0 +1,89 @@
+:root {
+    ---grey: #1d1f21;
+    --water-green: #00f89e;
+
+    --easy: #6B8E23;
+    --medium: #FFA500;
+    --hard: #FF0000;
+    --insane: #9400D3;
+}
+
+body {
+    font-family: Baskerville-Old;
+    font-size: 1em;
+    background-image: url("pics/background_image_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 30em;
+    background-color: var(---grey);
+    color: white;
+    margin: 0px 7%;
+}
+
+h1 {
+    font-family: serif;
+    color: red;
+}
+
+.main_title {
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #1d1f21;
+    width: 25em;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.legend {
+    border: 3px solid white;
+    float: right;
+    width: 200px;
+
+    transform: translate(0, 1.3em);
+}
+
+.index a {
+    display: block;
+
+    margin: 0.5em 0;
+    padding: 0.5em 0 0.5em 1em;
+    border-left: 2px solid var(--water-green);
+
+    background: linear-gradient(90deg, var(--water-green), var(---grey) 15%);
+    background-size: 150% 100%;
+    background-position: 50% 0%;
+
+    text-decoration: none;
+    color: white;
+}
+
+.index a:hover {
+    border-left: 2px solid var(--water-green);
+    animation: index-background 0.25s linear forwards;
+}
+
+@keyframes index-background {
+    from {
+        background-position: 50% 0%;
+        color: white;
+    }
+    to {
+        background-position: 0% 0%;
+        color: black;
+    }
+}
+
+.map {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0px 10%;
+}
+
+td { padding: 0.5em}
+#ez { background-color: var(--easy) }
+#md { background-color: var(--medium) }
+#hd { background-color: var(--hard) }
+#in { background-color: var(--insane) }

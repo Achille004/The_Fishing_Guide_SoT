@@ -4,37 +4,44 @@
 <head>
     <title>The Fishing Guide - Sea of Thieves</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Official Fishing Guide of Sea of Thieves;">
+    <meta name="description" content="Fishing Guide of Sea of Thieves">
     <meta name="author" content="Francesco Marras & Samuel Stocco">
     <link rel="icon" type="image/gif" href="pics/logo.png">
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="sections.css">
 </head>
 
 <body>
-    <div style="margin-top: 400px; text-align: center;">
+    <div style="margin-top: 412px; text-align: center;">
         <hr style="border: 1px solid white;">
-        <div class="maintitle">
-            <h1 style="color: white; text-decoration: underline;">THE FISHING GUIDE</h1>
-            <h1 style="color: #00ff99;">SEA OF THIEVES</h1>
+        <div class="main_title">
+            <h1 style="color: white">THE FISHING GUIDE</h1>
+            <hr style="margin: 0px 2.5em">
+            <h1 style="color: #00f89e">SEA OF THIEVES</h1>
         </div>
     </div>
 
     <!--credits-->
-    <div>
-        <p style="font-family: serif; font-style: italic; padding: 6em 0px;">
-            Written by Samuel Stocco<br>Page developed by Francesco Marras & Samuel Stocco
-        </p>
+    <div style="padding: 4.6em 0px; font-family: serif; font-style: italic">
+        Page written and developed by:
+        <span>
+            <ul>
+                <li>Francesco Marras</li>
+                <li>Samuel Stocco</li>
+            </ul>
+        </span>
     </div>
 
     <!--legend-->
-    <div class="legenda">
-        <h3> Legend: </h3>
-        <dl style="margin-bottom: 1.8em;">
-            <dd id="ez"> <span> easy </dd>
-            <dd id="md"> <span> medium </dd>
-            <dd id="hd"> <span> hard </dd>
-            <dd id="in"> <span> insane </dd>
-        </dl>
+    <div class="legend">
+        <h3 style="text-align: center">Rarity legend</h3>
+
+        <table style="text-align: center; width: 8.5em; margin: 0 2em 2em 2em">
+            <tr><td id="ez">EASY</td></tr>
+            <tr><td id="md">MEDIUM</td></tr>
+            <tr><td id="hd">HARD</td></tr>
+            <tr><td id="in">INSANE</td></tr>
+        </table>
     </div>
 
     <!--index-->
@@ -42,378 +49,359 @@
         <h1 style="color: white">
             INDEX:
         </h1>
+
         <h3>
-            1.
-            <a href=" #1">
-                Splashtails
-            </a>
-        </h3>
-        <h3>
-            2.
-            <a href="#2">
-                Plentifins
-            </a>
-        </h3>
-        <h3>
-            3.
-            <a href="#3">
-                Ancientscales
-            </a>
-        </h3>
-        <h3>
-            4.
-            <a href="#4">
-                Wildsplashes
-            </a>
-        </h3>
-        <h3>
-            5.
-            <a href="#5">
-                Devilfishes
-            </a>
-        </h3>
-        <h3>
-            6.
-            <a href="#6">
-                Islehoopers
-            </a>
-        </h3>
-        <h3>
-            7.
-            <a href="#7">
-                Pondies
-            </a>
-        </h3>
-        <h3>
-            8.
-            <a href="#8">
-                Battlegills
-            </a>
-        </h3>
-        <h3>
-            9.
-            <a href="#9">
-                Stormfishes
-            </a>
-        </h3>
-        <h3>
-            10.
-            <a href="#10">
-                Wreckers
-            </a>
-        </h3>
-        <h3>
-            <a href="#map">
-                Map
-            </a>
+            <a href="#1">Splashtails</a>
+            <a href="#2">Plentifins</a>
+            <a href="#3">Ancientscales</a>
+            <a href="#4">Wildsplashes</a>
+            <a href="#5">Devilfishes</a>
+            <a href="#6">Islehoopers</a>
+            <a href="#7">Pondies</a>
+            <a href="#8">Battlegills</a>
+            <a href="#9">Stormfishes</a>
+            <a href="#10">Wreckers</a>
+            <a href="#map">Map</a>
         </h3>
     </div>
 
-    <h2 class="textline" id="1">1 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="1">01 <hr/></h2>
     <div class="fish">
         <h1 class="title"> SPLASHTAILS </h1>
         <img class="picture" src="pics/fishes/splashtail.png">
-        <div class="difficolta" style="background-color:#6B8E23"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Anywhere </p>
             <p> Circumstances: None </p>
             <p> Bait: Anything </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Splashtails:</dt>
-            <dd style="color: #B22222 ">- Ruby Spashtail</dd>
-            <dd style="color: #FFD700 ">- Sunny Splashtail</dd>
-            <dd style="color: #7B68EE ">- Indigo Splashtail</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #32CD32 ">- Seafoam Splashtail (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #FFA07A ">- Umbra Splashtail</dd>
-        </dl>
-        <div class="tip">
-            <img class="icona" src="pics/bulb_icon_black.png">
-            <p>: <ins>Splashtails</ins> are useful for the hunter events to obtain the cosmetics and rewards.</p>
+
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #B22222 ">Ruby Spashtail</span></li>
+            <li><span style="color: #FFD700 ">Sunny Splashtail</span></li>
+            <li><span style="color: #7B68EE ">Indigo Splashtail</span></li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #32CD32 ">Seafoam Splashtail</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #FFA07A ">Umbra Splashtail</span></li>
+        </ul>
+
+        <div class="info tip">
+            <img class="icon" src="pics/bulb_icon_black.png">
+            <span>: <ins>Splashtails</ins> are useful for the hunter events to obtain the cosmetics and rewards.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="2">2 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="2">02 <hr/></h2>
     <div class="fish">
         <h1 class="title"> PLENTIFINS </h1>
         <img class="picture" src="pics/fishes/plentifin.png">
-        <div class="difficolta" style="background-color:#6B8E23"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Spoils of Plenty </p>
             <p> Circumstances: None </p>
-            <p> Bait: <span style="color: #8B4513">Earthworms</span> </p>
-    </div>
-    <br>
-    <dl>
-        <dt>Types of Plentifins:</dt>
-        <dd style="color: #6B8E23 ">- Olive Plentifin</dd>
-        <dd style="color: #FF4500 ">- Amber Plentifin</dd>
-        <dd style="color: #303081 ">- Cloudy Plentifin</dd>
-        <br>
-        <dt>Can be found only on night:</dt>
-        <dd style="color: #00BFFF ">- Watery Plentifin (glows)</dd>
-        <br>
-        <dt>Rarest one:</dt>
-        <dd style="color: #FFB6C1 ">- Bonedust Plentifin</dd>
-    </dl>
+            <p> Bait: <span class="earthworm">Earthworms</span> </p>
+        </div>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #6B8E23 ">Olive Plentifin</span></li>
+            <li><span style="color: #FF4500 ">Amber Plentifin</span></li>
+            <li><span style="color: #303081 ">Cloudy Plentifin</span></li>
+        </ul>
+            
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #00BFFF ">Watery Plentifin</span></li>
+        </ul>
+        
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #FFB6C1 ">Bonedust Plentifin</span></li>
+        </ul>
     </div>
 
-    <h2 class="textline" id="3">3 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="3">03 <hr/></h2>
     <div class="fish">
         <h1 class="title"> ANCIENTSCALES </h1>
         <img class="picture" src="pics/fishes/ancientscale.png">
-        <div class="difficolta" style="background-color:#6B8E23"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Ancient Isles </p>
             <p> Circumstances: None </p>
-            <p> Bait: <span style="color: #4B0082">Leeches</span> </p>
+            <p> Bait: <span class="leech">Leeches</span> </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Ancientscales:</dt>
-            <dd style="color: #8B0000 ">- Almond Ancientscale</dd>
-            <dd style="color: #00BFFF ">- Sapphire Ancientscale</dd>
-            <dd style="color: #483D8B ">- Smoke Ancientscale</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #9ACD32 ">- Starshine Ancientscale (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #FFB6C1 ">- Bone Ancientscale</dd>
-        </dl>
-        <div class="warning">
-            <img class="icona" src="pics/warning_icon_black.png">
-            <p>: <ins>Bone Ancientscale</ins> is very difficult to find, if you manage to catch one you are a very lucky man.
-            </p>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #8B0000">Almond Ancientscale</span></li>
+            <li><span style="color: #00BFFF">Sapphire Ancientscale</span></li>
+            <li><span style="color: #483D8B">Smoke Ancientscale</span></li>
+        </ul>
+        
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #9ACD32">Starshine Ancientscale</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #FFB6C1">Bone Ancientscale</span></li>
+        </ul>
+
+        <div class="info warning">
+            <img class="icon" src="pics/warning_icon_black.png">
+            <span>: <ins>Bone Ancientscale</ins> is hard to find, if you manage to catch one you are very lucky man.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="4">4 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="4">04 <hr/></h2>
     <div class="fish">
         <h1 class="title"> WILDSPLASHES </h1>
         <img class="picture" src="pics/fishes/wildsplash.png">
-        <div class="difficolta" style="background-color:#6B8E23"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Wilds </p>
             <p> Circumstances: None </p>
-            <p> Bait: <span style="color: #8B4513">Earthworms</span> </p>
+            <p> Bait: <span class="earthworm">Earthworms</span> </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Wildsplashes:</dt>
-            <dd style="color: #006400 ">- Russet Wildsplash</dd>
-            <dd style="color: #FFC0CB ">- Sandy Wildsplash</dd>
-            <dd style="color: #0000FF ">- Ocean Wildsplash</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #FF0000 ">- Coral Wildsplash (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #A0522D ">- Muddy Wildsplash</dd>
-        </dl>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #006400 ">Russet Wildsplash</span></li>
+            <li><span style="color: #FFC0CB ">Sandy Wildsplash</span></li>
+            <li><span style="color: #0000FF ">Ocean Wildsplash</span></li>
+        </ul>
+        
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #FF0000 ">Coral Wildsplash</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #A0522D ">Muddy Wildsplash</span></li>
+        </ul>
     </div>
 
-    <h2 class="textline" id="5">5 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="5">05 <hr/></h2>
     <div class="fish">
         <h1 class="title"> DEVILFISHES </h1>
         <img class="picture" src="pics/fishes/devilfish.png">
-        <div class="difficolta" style="background-color:#FFA500"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Devil's Roar </p>
             <p> Circumstances: None </p>
-            <p> Bait: <span style="color: #C0C0C0">Grubs</span> </p>
+            <p> Bait: <span class="grub">Grubs</span> </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Devilfishes:</dt>
-            <dd style="color: #696969 ">- Ashen Devilfish</dd>
-            <dd style="color: #D3D3D3 ">- Seashell Devilfish</dd>
-            <dd style="color: #FF8C00 ">- Lava Devilfish</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #FF4500 ">- Firelight Devilfish (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #B8860B ">- Forsaken Devilfish (really rare)</dd>
-        </dl>
-        <div class="warning">
-            <img class="icona" src="pics/warning_icon_black.png">
-            <p>: in the Devil’s Roar, <ins>fishing near volcanoes</ins> can be very dangerous for you, especially when grinding the <ins>Forsaken Devilfish</ins>. Position yourself wisely.</p>
+
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #696969 ">Ashen Devilfish</span></li>
+            <li><span style="color: #D3D3D3 ">Seashell Devilfish</span></li>
+            <li><span style="color: #FF8C00 ">Lava Devilfish</span></li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #FF4500 ">Firelight Devilfish</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #B8860B ">Forsaken Devilfish</span> (pretty rare)</li>
+        </ul>
+
+        <div class="info warning">
+            <img class="icon" src="pics/warning_icon_black.png">
+            <span>: in the Devil's Roar, <ins>fishing near volcanoes</ins> can be very dangerous for you, especially when grinding the <ins>Forsaken Devilfish</ins>. Position yourself wisely.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="6">6 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="6">06 <hr/></h2>
     <div class="fish">
         <h1 class="title"> ISLEHOOPERS </h1>
         <img class="picture" src="pics/fishes/islehooper.png">
-        <div class="difficolta" style="background-color:#FFA500"></div>
-        <div class="sidetext">
+        <div class="rarity md"></div>
+        <div class="side_text">
             <p> Location: Everywhere </p>
             <p> Circumstances: Near isles (possibly larger ones) </p>
             <p> Bait: None </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Islehoopers:</dt>
-            <dd style="color: #808080 ">- Stone Islehooper</dd>
-            <dd style="color: #228B22 ">- Moss Islehooper</dd>
-            <dd style="color: #DAA520 ">- Honey Islehooper</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #FF00FF ">- Amethyst Islehooper (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #696969 ">- Raven Islehooper</dd>
-        </dl>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #808080 ">Stone Islehooper</span></li>
+            <li><span style="color: #228B22 ">Moss Islehooper</span></li>
+            <li><span style="color: #DAA520 ">Honey Islehooper</span></li>
+        </ul>
+        
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #FF00FF ">Amethyst Islehooper</span></li>
+        </ul>
+        
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #696969 ">Raven Islehooper</span></li>
+        </ul>
     </div>
 
-    <h2 class="textline" id="7">7 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="7">07 <hr/></h2>
     <div class="fish">
         <h1 class="title"> PONDIES </h1>
         <img class="picture" src="pics/fishes/pondie.png">
-        <div class="difficolta" style="background-color:#6B8E23"></div>
-        <div class="sidetext">
+        <div class="rarity ez"></div>
+        <div class="side_text">
             <p> Location: Rivers, Ponds in the isles. </p>
             <p> Circumstances: None </p>
             <p> Bait: None </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Pondies:</dt>
-            <dd style="color: #303081 ">- Charcoal Pondie</dd>
-            <dd style="color: #BA55D3 ">- Orchid Pondie</dd>
-            <dd style="color: #D2691E ">- Bronze Pondie</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #4682B4 ">- Moonsky Pondie (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #FFFF00 ">- Bright Pondie</dd>
-        </dl>
-        <div class="tip">
-            <img class="icona" src="pics/bulb_icon_black.png">
-            <p>: to improve <ins>Pondies</ins> grinding, only one player should cast the hook because of the smal size of their locations.</p>
+
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #303081 ">Charcoal Pondie</span></li>
+            <li><span style="color: #BA55D3 ">Orchid Pondie</span></li>
+            <li><span style="color: #D2691E ">Bronze Pondie</span></li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #4682B4 ">Moonsky Pondie</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #FFFF00 ">Bright Pondie</span></li>
+        </ul>
+
+        <div class="info tip">
+            <img class="icon" src="pics/bulb_icon_black.png">
+            <span>: to improve <ins>Pondies</ins> grinding, only one player should cast the hook because of the small size of their locations.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="8">8 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="8">08 <hr/></h2>
     <div class="fish">
         <h1 class="title"> BATTLEGILLS </h1>
         <img class="picture" src="pics/fishes/battlegill.png">
-        <div class="difficolta" style="background-color:#FF0000"></div>
-        <div class="sidetext">
+        <div class="rarity hd"></div>
+        <div class="side_text">
             <p> Location: Everywhere </p>
             <p> Circumstances: Near active forts or skeleton ships </p>
-            <p> Bait: <span style="color: #C0C0C0">Grubs</span> </p>
+            <p> Bait: <span class="grub">Grubs</span> </p>
+        </div>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #008000 ">Jade Battlegill</span></li>
+            <li><span style="color: #0000CD ">Sky Battlegill</span></li>
+            <li><span style="color: #8B0000 ">Rum Battlegill</span></li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #FF6347 ">Bittersweet Battlegill</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #BC8F8F ">Sand Battlegill</span></li>
+        </ul>
+
+        <div class="info tip">
+            <img class="icon" src="pics/bulb_icon_black.png">
+            <span>: when trying to catch the <ins>Battlegills</ins> you may prefer fishing during a fort rather than a skeleton ship because they could sink yours.</span>
         </div>
         <br>
-        <dl>
-            <dt>Types of Battlegills:</dt>
-            <dd style="color: #008000 ">- Jade Battlegill</dd>
-            <dd style="color: #0000CD ">- Sky Battlegill</dd>
-            <dd style="color: #8B0000 ">- Rum Battlegill</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #FF6347 ">- Bittersweet Battlegill (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #BC8F8F ">- Sand Battlegill</dd>
-        </dl>
-        <div class="tip">
-            <img class="icona" src="pics/bulb_icon_black.png">
-            <p>: when trying to catch the <ins>Battlegills</ins> you may prefer fishing during a fort rather than a skeleton ship because they could sink yours.</p>
-        </div>
-        <br>
-        <div class="warning">
-            <img class="icona" src="pics/warning_icon_black.png">
-            <p>: <ins>Sand Battlegill</ins> is one of the rarest fish in the game. It is worth over 14k gold!</p>
+        <div class="info warning">
+            <img class="icon" src="pics/warning_icon_black.png">
+            <span>: <ins>Sand Battlegill</ins> is one of the rarest fish in the game. It is worth over 14k gold!</span>
         </div>
     </div>
 
-    <h2 class="textline" id="9">9 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="9">09 <hr/></h2>
     <div class="fish">
         <h1 class="title"> STORMFISHES </h1>
         <img class="picture" src="pics/fishes/stormfish.png">
-        <div class="difficolta" style="background-color:#FF0000"></div>
-        <div class="sidetext">
+        <div class="rarity hd"></div>
+        <div class="side_text">
             <p> Location: Everywhere </p>
             <p> Circumstances: Into storms </p>
-            <p> Bait: <span style="color: #4B0082">Leeches</span> </p>
+            <p> Bait: <span class="leech">Leeches</span> </p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Stormfishes:</dt>
-            <dd style="color: #778899 ">- Ancient Stormfish</dd>
-            <dd style="color: #10109B ">- Shores Stormfish</dd>
-            <dd style="color: #006400 ">- Wilds Stormfish</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #F0E68C ">- Twilight Stormfish (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #8B0000 ">- Shadow Stormfish</dd>
-        </dl>
-        <div class="warning">
-            <img class="icona" src="pics/warning_icon_black.png">
-            <p>: you could be struck by a lightning while fishing into thunderstorms, being full health and fishing into the water may prevent from catching on fire or die.</p>
+        
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #778899 ">Ancient Stormfish</span></li>
+            <li><span style="color: #10109B ">Shores Stormfish</span></li>
+            <li><span style="color: #006400 ">Wilds Stormfish</span></li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #F0E68C ">Twilight Stormfish</span></li>
+        </ul>
+            
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #8B0000 ">Shadow Stormfish</span></li>
+        </ul>
+
+        <div class="info warning">
+            <img class="icon" src="pics/warning_icon_black.png">
+            <span>: you could be struck by a lightning while fishing into thunderstorms, being full health and fishing into the water may prevent from catching on fire or die.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="10">10 </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="10">10 <hr/></h2>
     <div class="fish">
         <h1 class="title"> WRECKERS </h1>
         <img class="picture" src="pics/fishes/wrecker.png">
-        <div class="difficolta" style="background-color:#9400D3; font-size: 0.7em; text-align: center; line-height: 180%; color:white">
+        <div class="rarity in" style="font-size: 0.7em; text-align: center; line-height: 180%; color:white">
             Blackclouds</div>
-        <div class="difficolta" style="background-color:#FFA500"></div>
-        <div class="sidetext">
+        <div class="rarity md"></div>
+        <div class="side_text">
             <p> Location: Near shipwrecks </p>
             <p> Circumstances: None, storm for the <a href="#blackclouds">Blackclouds</a> </p>
-            <p> Bait: <span style="color: #8B4513">Earthworms</span></p>
+            <p> Bait: <span class="earthworm">Earthworms</span></p>
         </div>
-        <br>
-        <dl>
-            <dt>Types of Wreckers:</dt>
-            <dd style="color: #9400D3">- Rose Wrecker</dd>
-            <dd style="color: #FF4500">- Sun Wreckers</dd>
-            <dd style="color: #303081" id="blackclouds">- Blackcloud Wreckers (tremendously rare)</dd>
-            <br>
-            <dt>Can be found only on night:</dt>
-            <dd style="color: #4169E1">- Moon Wreckers (glows)</dd>
-            <br>
-            <dt>Rarest one:</dt>
-            <dd style="color: #FFC0CB">- Snow Wreckers</dd>
-        </dl>
-        <div class="tip">
-            <img class="icona" src="pics/bulb_icon_black.png">
-            <p>: prepare yourself with a lot of time and patience, <ins>Wreckers</ins> are the rarest fish in the game.
-            </p>
+
+        <p>Common:</p>
+        <ul>
+            <li><span style="color: #9400D3">Rose Wrecker</span></li>
+            <li><span style="color: #FF4500">Sun Wreckers</span></li>
+            <li><span style="color: #303081" id="blackclouds">Blackcloud Wreckers</span> (tremendously rare)</li>
+        </ul>
+
+        <p>Only at night (glows):</p>
+        <ul>
+            <li><span style="color: #4169E1">Moon Wreckers</span></li>
+        </ul>
+
+        <p>Rarest one:</p>
+        <ul>
+            <li><span style="color: #FFC0CB">Snow Wreckers</span></li>
+        </ul>
+
+        <div class="info tip">
+            <img class="icon" src="pics/bulb_icon_black.png">
+            <span>: prepare yourself with a lot of time and patience, <ins>Wreckers</ins> are the rarest fish in the game.</span>
         </div>
     </div>
 
-    <h2 class="textline" id="map"> MAP </h2>
-    <div class="linea">&nbsp;</div>
+    <h2 class="index_line" id="map"> MAP <hr style="width: calc(100% - 3em)"/></h2>
     <h1 class="title" style="margin-top: 5%; text-align: center; font-size: 3.3em;"> THE MAP </h1>
-    <img class="map" src="pics/map.jpg" alt="Sea of Thieves map">
+    <img class="map" src="pics/map.jpg" alt="Sea of Thieves map" style="margin-bottom: 5%">
 
-    <div style="margin-top: 7%;"></div>
-    <h2 class="textline" style="margin-top: 5%" id="map"> THE END </h2>
-    <div class="linea" style="margin-bottom: 7%;">&nbsp;</div>
+    <h2 class="index_line" style="padding-bottom: 5%" id="map"> THE END <hr style="width: calc(100% - 5.2em)"/></h2>
 </body>
 
 </html>

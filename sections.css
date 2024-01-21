@@ -1,0 +1,79 @@
+:root {
+    ---grey: #1d1f21;
+    --water-green: #00f89e;
+
+    --easy: #6B8E23;
+    --medium: #FFA500;
+    --hard: #FF0000;
+    --insane: #9400D3;
+
+    --earthworm: #8B4513;
+    --grub: #cbc9b6;
+    --leech: #4B0082;
+}
+
+.index_line {
+    background: #1d1f21;
+    font-size: 2em;
+    display: inline;
+    padding-right: 20px;
+}
+
+.index_line hr {
+    float: right;
+    width: calc(100% - 1.7em);
+    height: 0.2em;
+    background-color: white
+}
+
+.fish {
+    font-size: 1.5em;
+    margin-bottom: 3.6em;
+}
+
+.title {
+    color: red;
+}
+
+.picture {
+    border: 2px solid black;
+    float: left;
+    background-color: white;
+    width: 667px;
+    height: 371px;
+}
+
+.side_text {
+    margin-left: 700px;
+    line-height: 4.5em;
+}
+.side_text .earthworm { color: var(--earthworm) }
+.side_text .grub { color: var(--grub) }
+.side_text .leech { color: var(--leech) }
+
+.rarity {
+    border: 2px solid white;
+    float: right;
+    width: 100px;
+    height: 30px;
+}
+.rarity.ez { background-color: var(--easy) }
+.rarity.md { background-color: var(--medium) }
+.rarity.hd { background-color: var(--hard) }
+.rarity.in { background-color: var(--insane) }
+
+.info {
+    border: 5px solid;
+    height: 4em;
+}
+.info.tip { border-color: var(--medium) }
+.info.warning { border-color: var(--hard) }
+.info span {
+    padding: 1em 0
+}
+
+.icon {
+    margin-left: 0.5em;
+    display: inline;
+    transform: translate(0, 25%);
+}
