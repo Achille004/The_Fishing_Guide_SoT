@@ -62,6 +62,10 @@
 .rarity.hd { background-color: var(--hard) }
 .rarity.in { background-color: var(--insane) }
 
+th, td {
+    width: 33%;
+}
+
 .info {
     border: 5px solid;
     height: 4em;
